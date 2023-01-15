@@ -207,3 +207,47 @@ nav ul {
     font-weight: 500;
     font-size: 25px;
 }
+
+/* some fact  */
+
+.some-facts {
+    width: 542px;
+    margin: 0 100px;
+}
+
+.sf-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/* icon section  */
+
+.icons {
+ display: flex;
+ gap: 142px;
+ justify-content: center;
+ margin: 100px 150px;
+}
+
+.icon {
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    
+}
+
+.icon h2 {
+    margin: 0;
+}
+
+.icon-rating {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.icon-info {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
