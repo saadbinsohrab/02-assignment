@@ -43,7 +43,6 @@ nav ul {
 }
 
 .banner-text {
-    border: 2px solid hotpink;
     text-align: center;
     padding-bottom: 50px;
     width: 862px;
@@ -123,7 +122,6 @@ nav ul {
 /* features */
 
 .features-container {
-    border: 2px solid hotpink;
     display: flex;
     gap: 54px;
     justify-content: center;
@@ -139,9 +137,14 @@ nav ul {
     height: 982px; */
 }
 
+.jhamela {
+    display: flex;
+    align-items: center;
+}
+
 .faka {
+    width: 5px;
     height: 106px;
-    left: 240px;
     background: #FF900E;
 }
 
@@ -151,15 +154,15 @@ nav ul {
 }
 
 .features-items {
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .f-item {
-    border: 2px solid yellow;
     padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0.1px #8888882a;
 }
 
 .f-item-title, .f-item-description {
@@ -304,22 +307,22 @@ nav ul {
 
     100% {
         color: rgb(253, 4, 4);
-    right: 1100px;
+    right: 2600px;
     }
 }
 
 .my-section {
     width: 100%;
     height: 200px;
-    border: 2px solid grey;
 }
 
 .my-text {
+    margin: 0;
     font-size: 65px;
     font-weight: bolder;
     position: relative;
-    right: -1800px;
-    animation: sliding 10s linear 0.5s infinite backwards;
+    right: -1600px;
+    animation: sliding 15s linear 0.5s infinite backwards;
     animation-play-state: running;
     white-space: nowrap;
 }
@@ -328,10 +331,8 @@ nav ul {
 
 footer {
     text-align: center;
-    /* width: 1440px; */
-    /* height: 100px; */
     padding: 50px 0;
-    margin: 150px 240px;
+    margin: 50px 240px 150px;
     background: #FFF4E7;
     border-radius: 8px;
 }
